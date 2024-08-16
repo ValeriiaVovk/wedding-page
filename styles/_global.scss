@@ -1,0 +1,116 @@
+// font-family: "Merienda", cursive;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 16px;
+    color: #a5a5a5;
+    line-height: 162%;
+    letter-spacing: 0.04em;
+}
+
+.container {
+    max-width: 1339px;
+    margin: 0 auto;
+}
+
+.discoverbtn {
+    position: relative;
+}
+
+.discover_btn {
+    background: #cde0ef;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #3f4e5b;
+    padding: 14px 38px 17px 38px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.discover_btn-border {
+    border: 1px solid #cde0ef;
+    width: 185px;
+    height: 50px;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: -99;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+
+    &-active {
+        border-radius: 44px;
+        width: 23px;
+        height: 10px;
+        background: #86a0b6;
+        cursor: pointer;
+    }
+
+    &-non-active {
+        border-radius: 100%;
+        background: #ebebeb;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+}
+
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+  &_line {
+      border: 1px solid #86a0b6;
+      width: 92px;
+      height: 0px;
+  }
+}
+
+h2 {
+  font-family: $second-family;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 144%;
+  letter-spacing: 0.04em;
+  color: #313639;
+}
+
