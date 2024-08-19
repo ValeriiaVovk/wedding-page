@@ -1,0 +1,314 @@
+@media (max-width: 1350px) {
+    .header {
+        padding: 33px 14px 80px 14px;
+    }
+
+    .hero {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .planner {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .services {
+        padding: 116px 14px 114px 14px;
+
+        &__types {
+            justify-content: center;
+        }
+    }
+
+    .numbers {
+        padding: 134px 14px 123px 14px;
+    }
+
+    .ceremony {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .reviews {
+        padding: 64px 14px 80px 14px;
+    }
+
+    .team {
+        padding: 44px 14px 144px 14px;
+
+        &__members {
+            flex-wrap: wrap;
+        }
+    }
+
+    .call-to-action__wrapper {
+        background-position: center;
+    }
+
+    .companies {
+        padding: 83px 14px;
+    }
+
+    .footer {
+        padding: 83px 14px 57px 14px;
+    }
+}
+
+@media (max-width: 1135px) {
+    .numbers {
+    
+        &__wrap {
+            border: 1px solid rgba(115, 142, 165, 0.25);
+            max-width: 1110px;
+            width: 100%;
+            padding: 30px 10px;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .ceremony {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .hero {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 820px) {
+    .planner__img {
+        img {
+            max-width: 495px;
+            width: 100%;
+            max-height: 604px;
+            height: 100%;
+        }
+    }
+
+    .reviews__img {
+        display: none;
+    }
+
+    .reviews {
+    
+        &__info {
+    
+            .btns {
+                position: absolute;
+                bottom: -40px;
+                left: 10px;
+            }
+    
+        }
+    }
+}
+
+@media (max-width: 845px) {
+    .footer {
+    
+        &__navigation {
+            padding-left: 15px;
+            padding-top: 20px;
+        }
+    
+        &__information {
+            padding-left: 15px;
+        }
+    
+        &__photo {
+            padding-left: 15px;
+        }
+    }
+}
+
+@media (max-width: 790px) {
+    .header nav ul {
+        display: none;
+    }
+
+    .companies {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 732px) {
+    .footer {
+    
+        &__navigation {
+            padding-left: 15px;
+            padding-top: 20px;
+        }
+    
+        &__information {
+            padding-left: 15px;
+        }
+    
+        &__photo {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .header {
+        padding: 33px 14px 33px 14px;
+    }
+    
+    .hero {
+
+        &__info {
+            align-items: center;
+
+            h1 {
+                font-size: 35px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+
+        &__img {
+            &-wrapper {
+
+                img {
+                    max-width: 475px;
+                    width: 100%;
+                    max-height: 319px;
+                    height: 100%;
+                }
+
+                &-blue {
+                    max-width: 490px;
+                    width: 100%;
+                    max-height: 329px;
+                    height: 100%;
+                }
+
+                &-white {
+                    max-width: 448px;
+                    width: 100%;
+                    max-height: 301px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .planner {
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 80px;
+
+        &__img {
+
+            img {
+                display: none;
+            }
+        }
+
+        &__info {
+            align-items: center;
+
+            h2, p {
+                text-align: center;
+            }
+        }
+    }
+
+    .services {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+        .icon {
+            margin-bottom: 34px;
+        }
+    }
+
+    .numbers {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+        &__wrap {
+    
+            &-indicator {
+    
+                &_how {
+                    font-size: 25px;
+                }
+    
+                
+            }
+        }
+    }
+
+    .reviews  {
+        justify-content: center;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 565px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .team {
+
+        &__members {
+            justify-content: center;
+        }
+    }
+
+    .hero {
+
+        &__info {
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .services {
+    
+        &__types {
+    
+            &-info {
+                padding: 24px 30px;
+                width: 310px;
+            }
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        padding-top: 40px;
+
+        &__navigation {
+            padding-left: 0;
+        }
+
+        &__information {
+            padding-left: 0;
+        }
+    }
+}
